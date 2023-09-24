@@ -1,0 +1,24 @@
+/* #region common */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+}
+/* #endregion common */
+
+/* #region header */
+#header{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+}
+/* #endregion header */
