@@ -3,22 +3,87 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
     background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+    width: 80%;
+    margin: 0 auto;
 }
 /* #endregion common */
 
 /* #region header */
 #header{
     height: 100px;
-    width: 80%;
     display: flex;
     align-items: center;
-    margin: 0 auto;
     border-bottom: 1px solid white;
 }
 
-h1{
+h1, h2{
     color: white;
     padding: 10px;
 }
 /* #endregion header */
+
+/* #region search-unread */
+.search-unread{
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+input, button{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.total-unread{
+    background-color: #FAA501;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* #endregion search-unread */
+
+/* #region main */
+.main{
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.mail-object{
+    font-weight: 700;
+}
+
+.read{
+    background-color: lightgray;
+}
+
+.unread{
+    background-color: white;
+}
+/* #endregion main */
+
+/* #region footer */
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    display: inline-block;
+}
+
+.powered{
+    font-style: italic;
+}
+/* #endregion footer */
