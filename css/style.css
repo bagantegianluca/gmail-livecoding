@@ -32,7 +32,7 @@ h1, h2{
     border-bottom: 1px solid white;
 }
 
-input, button{
+.search, button{
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -69,6 +69,10 @@ input, button{
 
 .unread{
     background-color: white;
+}
+
+.checkbox{
+    margin: 0 5px;
 }
 /* #endregion main */
 
